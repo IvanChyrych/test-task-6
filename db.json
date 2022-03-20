@@ -1,0 +1,76 @@
+{
+  "products": [{
+      "article": 1,
+      "name": "BUTTERFLY Tenergy 19",
+      "category": "rubbers",
+      "price": "100",
+      "image": "BUTTERFLY Tenergy 19.jpg",
+      "quantity": 1
+
+    },
+    {
+      "article": 2,
+      "name": "NITTAKU Flyatt Spin",
+      "category": "rubbers",
+      "price": "200",
+      "image": "NITTAKU Flyatt Spin.png",
+      "quantity": 1
+    },
+    {
+      "article": 3,
+      "name": "TIBHAR Evolution MX-D",
+      "category": "rubbers",
+      "price": "300",
+      "image": "TIBHAR Evolution MX-D.png",
+      "quantity": 1
+    },
+    {
+      "article": 4,
+      "name": "BUTTERFLY 3 G40+",
+      "category": "balls",
+      "price": "400",
+      "image": "BUTTERFLY 3 G40+.jpg",
+      "quantity": 1
+    },
+    {
+      "article": 5,
+      "name": "DHS 3 DJ40+ WTT ITTF",
+      "category": "balls",
+      "price": "500",
+      "image": "DHS 3 DJ40+ WTT ITTF.png",
+      "quantity": 1
+    },
+    {
+      "article": 6,
+      "name": "NITTAKU 3 Premuim 40+",
+      "category": "balls",
+      "price": "600",
+      "image": "NITTAKU 3 Premuim 40+.jpg",
+      "quantity": 1
+    },
+    {
+      "article": 7,
+      "name": "BUTTERFLY Free Chack PRO II 50ml",
+      "category": "glues",
+      "price": "700",
+      "image": "BUTTERFLY Free Chack PRO II 50ml.png",
+      "quantity": 1
+    },
+    {
+      "article": 8,
+      "name": "Revolution Nr.3 250 ml",
+      "category": "glues",
+      "price": "800",
+      "image": "Revolution Nr.3 250 ml.jpg",
+      "quantity": 1
+    },
+    {
+      "article": 9,
+      "name": "ULTRA Speed Light 500 ml",
+      "category": "glues",
+      "price": "900",
+      "image": "ULTRA Speed Light 500 ml.jpg",
+      "quantity": 1
+    }
+  ]
+}
