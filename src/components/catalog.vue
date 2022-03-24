@@ -18,7 +18,7 @@
     <div class="catalog__products">
       <catalog-item
         v-for="product in filteredProducts"
-        :key="product.article"
+        :key="product.Cur_ID"
         v-bind:product_data="product"
         @addToCart="addToCart"
         @productClick="productClick"
@@ -165,6 +165,7 @@ export default {
 
 .catalog__products {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .catalog__filters {

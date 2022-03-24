@@ -4,12 +4,12 @@ export default{
     GET_PRODUCTS_FROM_API({
         commit
     }) {
-        return axios('https://www.nbrb.by/api/exrates/currencies', {
+        return axios('https://www.nbrb.by/api/exrates/rates?periodicity=0', {
                 method: "GET"
             })
-            .then((products) => {
-                commit('SET_PRODUCTS_TO_STATE', products.data);
-                return products;
+            .then((currencies) => {
+                commit('SET_PRODUCTS_TO_STATE', currencies.data);
+                return currencies;
 
             })
             .catch((error) => {

@@ -1,13 +1,12 @@
 <template>
-  <div class="catalog" @click="productClick">
-    <img :src="require('../assets/img/' + product_data.image)" alt="" />
+  <div class="catalog" >
+ 
+    <p>Валюта: {{ product_data.Cur_Name }} </p>
+    <p>Курс: {{ product_data.Cur_OfficialRate }} </p>
 
-    <h2>{{ product_data.name }}</h2>
-    <p>price:{{ product_data.price }}</p>
-    <p>article:{{ product_data.article }}</p>
-    <p>available:{{ product_data.available }}</p>
-    <button @click="addToCart">add to cart</button>
+   
   </div>
+  
 </template>
 
 <script>

@@ -3,7 +3,7 @@
 
 <img :src="require('../assets/img/' + product.image)" alt="" />
 
-    <p>Product name {{ product.name }}</p>
+    <p>Product name {{ products_data.Cur_Code }}</p>
 
     <p>price:{{ product.price }}</p>
 
