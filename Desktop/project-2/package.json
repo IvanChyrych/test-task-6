@@ -1,0 +1,25 @@
+{
+  "name": "project-2",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanChyrych/project-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanChyrych/project-2/issues"
+  },
+  "homepage": "https://github.com/IvanChyrych/project-2#readme",
+  "description": "",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.3",
+    "parcel": "^2.10.3",
+    "sass": "^1.69.5"
+  }
+}
